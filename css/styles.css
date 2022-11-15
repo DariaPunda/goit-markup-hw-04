@@ -171,6 +171,8 @@ header {
   color: var(--accent-text-color);
 }
 
+
+
 /*---------------------- Main - Hero section---------------------- */
 
 .hero.section {
@@ -251,16 +253,15 @@ header {
 .features-list .item + .item {
   margin-left: 30px;
 }
-.item .features-icon {
+.features-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   background-color: var(--grey-bcg-color);
   width: 270px;
   height: 120px;
   border-radius: 4px;
-}
-
-.features-icon {
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .features-title {
@@ -404,7 +405,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
 }
 .clients-item {
   width: 170px;
@@ -439,13 +440,13 @@ header {
 
 /*----------------------Footer---------------------- */
 .footer {
-  background-color: var(--accent-bcg-color);
-}
-.container.footer {
-  display: flex;
-  align-items: baseline;
+  background-color: var(--accent-bcg-color);  
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer-div {
+  display: flex;
+  align-items: baseline;
 }
 
 .logo-footer {
