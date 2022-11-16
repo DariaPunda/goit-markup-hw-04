@@ -355,13 +355,13 @@ header {
 .team-list .item + .item {
   margin-left: 30px;
 }
+.soc-wrap{
+  padding-bottom: 30px;
+}
 
 .soc-list {
   display: flex;
   justify-content: center;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: 30px;
   gap: 10px;
 }
 
@@ -607,7 +607,8 @@ header {
   margin-bottom: 0;
 }
 
-.main-list .item:hover {
+.main-list .link:hover,
+.main-list .link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
